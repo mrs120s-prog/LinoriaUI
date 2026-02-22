@@ -9,56 +9,60 @@ do
             1,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}'),
         },
-        BBot = {
+        Red = {
             2,
+            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"ff1100","BackgroundColor":"141414","OutlineColor":"323232"}'),
+        },
+        BBot = {
+            3,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}'),
         },
         Fatality = {
-            3,
+            4,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}'),
         },
         Jester = {
-            4,
+            5,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}'),
         },
         Mint = {
-            5,
+            6,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}'),
         },
         ["Tokyo Night"] = {
-            6,
+            7,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}'),
         },
         Ubuntu = {
-            7,
+            8,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}'),
         },
         Quartz = {
-            8,
+            9,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232330","AccentColor":"426e87","BackgroundColor":"1d1b26","OutlineColor":"27232f"}'),
         },
         Azure = {
-            9,
+            10,
             httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0F0F0F","AccentColor":"929667","SelectedTabColor":"101010","BackgroundColor":"1B1B1B","OutlineColor":"0B0B0B"}'),
         },
         GameSense = {
-            10,
+            11,
             httpService:JSONDecode('{"FontColor":"919191","MainColor":"101010","AccentColor":"9CB819","SelectedTabColor":"101010","BackgroundColor":"111111","OutlineColor":"2D2D2D"}'),
         },
         ["Comet.pub"] = {
-            11,
+            12,
             httpService:JSONDecode('{"FontColor":"5E5E5E","MainColor":"0F0F0F","AccentColor":"5D589D","SelectedTabColor":"1a191d","BackgroundColor":"0F0F0F","OutlineColor":"191919"}'),
         },
         ["Tokyohook.cc"] = {
-            12,
+            13,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","SelectedTabColor":"1a1a29","BackgroundColor":"16161f","OutlineColor":"433e58"}'),
         },
         ["pandahook.cc"] = {
-            13,
+            14,
             httpService:JSONDecode('{"FontColor":"AEAEAE","MainColor":"0F0F0F","AccentColor":"30406A","SelectedTabColor":"151515","BackgroundColor":"0F0F0F","OutlineColor":"171717"}'),
         },
         ["Mae.lua"] = {
-            14,
+            15,
             httpService:JSONDecode('{"FontColor":"c5c5c5","MainColor":"0F0F0F","AccentColor":"ffc6fe","SelectedTabColor":"171717","BackgroundColor":"0f0f0f","OutlineColor":"191919"}'),
         },
     }
