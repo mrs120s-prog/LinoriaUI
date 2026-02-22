@@ -9,10 +9,6 @@ do
             1,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}'),
         },
-        Red = {
-            2,
-            httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"ff1100","BackgroundColor":"141414","OutlineColor":"323232"}'),
-        },
         BBot = {
             3,
             httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}'),
